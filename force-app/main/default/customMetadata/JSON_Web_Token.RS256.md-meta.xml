@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>RS256</label>
+    <protected>false</protected>
+    <values>
+        <field>Algorithm__c</field>
+        <value xsi:type="xsd:string">RS256</value>
+    </values>
+    <values>
+        <field>Audiences__c</field>
+        <value xsi:type="xsd:string">https://api.einstein.ai/v2/oauth2/token</value>
+    </values>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://api.einstein.ai/v2/oauth2/token</value>
+    </values>
+    <values>
+        <field>Issuer__c</field>
+        <value xsi:type="xsd:string">developer.force.com</value>
+    </values>
+    <values>
+        <field>RSA_Key__c</field>
+        <value xsi:type="xsd:string">MIIEowIBAAKCAQEApWhWGrdj+XqqhYGfLeUl9qcvnH1TVAfYc7F3qkaswTuztesO
+ktJ0cSCBbd3UMfHeWwjepZg2UhQZa+tdTDt7jlCPzkvqiVAwilJI0a4W37ZYfGx8
+RU29C0jKW76j9OS+LrogLe6F49EPfMedpGUek953yO90PFLPCcUiWAuKzsiCrDei
+0StypJ3m86MLfBIoH6DU9iTtEDvTjsuHpXZTiWLM1efJ3O9TR9W1LoRSmnB1u4q3
+LEp38ACZ78OuY3m6Lfvvmb3sZARfl1qQnFV88VUtekQbNF18k95gcnnmKBvtpZmN
+Iso8MHtDPcYaJif69tdRnbQeOwS4bSgvWa+BgQIDAQABAoIBACjd3mg7Zzf8VqUl
+oW51byvBosHHNQ9N4Oy0rBwl2gjj90K7EJ614I8SuOesJwEwAP/88QV41fLxhFZl
+kGeFSsGepekSWKAUb+m86sDjgkNDihkztIBq9IoVMen48AlRequQ0OKITAw9WtY5
+e3ligmuGS5IZl15QF1cSnamjMGhmPDDXPkBY8XGeeutMwKnZJhAJGS7R8Ey/Moec
+Ul7NKKrkxHSUIi8fMtyJTqmUZN3RqYVfweuf9gYBpwlqMA6MMbrMDWlVVLrELbC9
+b4ZTh6Aqc1iRu+q5n31iiwu1dudIMgkmrQjDfKeLQ4RAaite5k+BKBf7Y6UVGYva
+baqb3AECgYEA0P6+WG55xdjQehbg2hznhLCdy7/Jue88IjXGvEnVOrnXE9+DNOe7
+jweKXCtIpL04Y/+9Ljb4ChQFYahSYNCeFeC4NPJcyLg1jjsIWtS+Jls7aiumZwx4
+bFr7O9E4mgTnSGh/C34FXIgOtczKMNuvyGJ60Jkdh2PCh3PTMIwq2+0CgYEAypv3
+BzrdaNWrVGxSMYU1hG1BHpbQFUzFBDZheXl8jUzNwasgbXGji6eQe5+ETfSkONTz
+3slGxEdern3Pgk4cZXTDF+mc3pw8eH4K3rNOQ4451XkIowKfFWx1uqpajXQrI3JX
+X4CWPheaasr6Kl6QM96dZUzhiSxei4Uok3dcEWUCgYEAwE0Fu7y7U25yNUSD1G2w
+IYmZR/bKmMkmHZw5ptqQ1p5U5jZNNgrbq3mWt8Qj7WEmV+zil3mAtVVCtl74nZiX
+PS4ukJlJAm9s59gtkdYauJRNkR1k2YDB9YGplZqnaCCG5zsvWtWz/TY7wtASYu5h
+ShJDS1j3sLH8NkI+2na+oOkCgYBceHhzRUt+KF7sxg9xaIG3cgHRizVnM0WMGaG9
+RlQxTUdvR8IiEUZ6W7zWn0RMLAazpYW0PZrdxFETRHpr12igaX0NMeMVuqrit2wQ
+njdvH7+HjZkChRTEO180FcIEY2u43tu/y7lGl5EzgnZQ1h3sfoLJlCAvch+of9q4
+Czbq/QKBgAgTuKXQHooKqNZ9Lex3idkjEPHfHvT7vjiRr5AWzTv9GC/Q5FO0npnu
+l9HxSmFEhIQI/EsACIflVUMdoNly4VEVNRq21cnLBaa6uj5RFmxdyOz9vTVdrMNf
+ulhRY+M+JXncyT6GBXSAGqz8ab8aUU8xNuTkPaL57OG/8a+oE/EK</value>
+    </values>
+    <values>
+        <field>Subscriber__c</field>
+        <value xsi:type="xsd:string">kruk.matias@gmail.com</value>
+    </values>
+    <values>
+        <field>Token_Duration__c</field>
+        <value xsi:type="xsd:double">36000.0</value>
+    </values>
+</CustomMetadata>
