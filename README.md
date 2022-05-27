@@ -1,18 +1,12 @@
-# Salesforce DX Project: Next Steps
+# Einstein API - Sentiment and Intent APIs
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is a POC how to use the Einstein APIs.
 
-## How Do You Plan to Deploy Your Changes?
+## Details
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+This implementation is based on the sentiment analysis of cases' descriptions and subject. There's a field that show which is the sentiment inferred based on the default salesforce dataset: CommunitySentiment. 
+1. Create an scratch org and deploy all the development in the default folder. 
+2. Configure the Einstein API Private API Token that you can get in: https://api.einstein.ai/signup. You will get a private RSA key it can be downloaded as ‘einstein_platform.pem’ 
+3. After have this key, go to the org => setup => custom metadata type => JSON Web Token => Manage => Edit RSA Key (with the one generate above) and the edit the susbscriber field with the email you used to signup in the step commented above as well. The rest can remain as it is. 
+4. Then you can check it creating a case by any means: manually, email-to-case, web-to-case. And check the response from the Einstein API. The fields are: sam_dev_Sentiments__c (Negative, Positive, Neutral) and sentimentResponse (JSON Response from the API with the raw  response)
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
