@@ -20,6 +20,9 @@ public class fetchSentiments {
             selectedCase.sentimentResponse__c = out.output;
         }
         update cases;
+        List<Refresh__e> refreshCases = new List<Refresh__e>();
+        refreshCases.add(new Refresh__e());
+        List<Database.SaveResult> results = EventBus.publish(refreshCases);
     }
     
     @future(callout=true) 

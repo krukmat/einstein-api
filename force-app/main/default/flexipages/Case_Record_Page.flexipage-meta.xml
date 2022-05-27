@@ -43,6 +43,11 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>sentimentLWC</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>forceChatter:recordFeedContainer</componentName>
             </componentInstance>
         </itemInstances>
