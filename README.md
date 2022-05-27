@@ -3,7 +3,7 @@
 This is a POC how to use the Einstein APIs.
 
 ## Details
-
+![This is an output](https://github.com/krukmat/einstein-api/blob/fd651c1c440c75711c2df3278c5991463e8d589c/image/einsteinapi-case.png)
 This implementation is based on the sentiment analysis of cases' descriptions and subject. There's a field that show which is the sentiment inferred based on the default salesforce dataset: CommunitySentiment. 
 1. Create an scratch org and deploy all the development in the default folder. 
 2. Configure the Einstein API Private API Token that you can get in: https://api.einstein.ai/signup. You will get a private RSA key it can be downloaded as ‘einstein_platform.pem’ 
