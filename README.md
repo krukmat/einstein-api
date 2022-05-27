@@ -10,5 +10,5 @@ This implementation is based on the sentiment analysis of cases' descriptions an
 3. ![This is an output](https://github.com/krukmat/einstein-api/blob/7dec4cf67b47e1ec56933d2d4fc1b6638f03d090/image/config-api-setup.png) 
 After have this key, go to the org => setup => custom metadata type => JSON Web Token => Manage => Edit RSA Key (with the one generate above) and the edit the susbscriber field with the email you used to signup in the step commented above as well. The rest can remain as it is. 
 4. Then you can check it creating a case by any means: manually, email-to-case, web-to-case. And check the response from the Einstein API. The fields are: sam_dev_Sentiments__c (Negative, Positive, Neutral) and sentimentResponse (JSON Response from the API with the raw  response)
-5. For the manual cases, a LWC => sentimentLWC was created to refresh the sentiment fields (due the callout is done in a @future method). Also a Platform event called => Refresh__e it's subscribed by the LWC to have been updated when API response is ready in the case object.
+5. For the manual cases, a LWC => sentimentLWC was created to refresh the sentiment fields (due the callout is done in a @future method). Also a Platform event called => Refresh__e that is subscribed by the LWC to update the case layout when callout is done.
 
