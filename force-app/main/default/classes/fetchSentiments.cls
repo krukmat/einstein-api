@@ -27,7 +27,6 @@ public class fetchSentiments {
     
     @future(callout=true) 
     public static void updateIntents(List<Id> CaseIds){
-        String sentiment;
         List<Case> cases =  [SELECT Id,	Subject, Comments,Description, sam_dev_Sentiments__c FROM Case WHERE ID IN :CaseIds];
         for(Case selectedCase : cases){
             text = selectedCase.Subject + '. ' + selectedCase.Description;
